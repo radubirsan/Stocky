@@ -1,7 +1,5 @@
 import Foundation
 
-/// `apiKey` is embedded for the interview only; in production it would
-/// come from a build-time `.xcconfig` excluded from source control.
 struct APIConfig: Sendable {
     let baseURL: URL
     let host: String
