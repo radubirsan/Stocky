@@ -36,6 +36,8 @@
 		1743D6712FB49E5000A3BA93 /* StockListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6702FB49E5000A3BA93 /* StockListViewModel.swift */; };
 		1743D6732FB49E5000A3BA93 /* StockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6722FB49E5000A3BA93 /* StockListView.swift */; };
 		1743D6752FB49E5000A3BA93 /* StockRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6742FB49E5000A3BA93 /* StockRowView.swift */; };
+		1743D6812FB49E6000A3BA93 /* StockDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6802FB49E6000A3BA93 /* StockDetailViewModel.swift */; };
+		1743D6832FB49E6000A3BA93 /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6822FB49E6000A3BA93 /* StockDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		1743D6702FB49E5000A3BA93 /* StockListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockListViewModel.swift; sourceTree = "<group>"; };
 		1743D6722FB49E5000A3BA93 /* StockListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockListView.swift; sourceTree = "<group>"; };
 		1743D6742FB49E5000A3BA93 /* StockRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockRowView.swift; sourceTree = "<group>"; };
+		1743D6802FB49E6000A3BA93 /* StockDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockDetailViewModel.swift; sourceTree = "<group>"; };
+		1743D6822FB49E6000A3BA93 /* StockDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,7 @@
 				1743D5DA2FB4998700A3BA93 /* ContentView.swift */,
 				1743D6642FB49E4000A3BA93 /* Common */,
 				1743D6762FB49E5000A3BA93 /* StockList */,
+				1743D6842FB49E6000A3BA93 /* StockDetail */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -273,6 +278,15 @@
 				1743D6742FB49E5000A3BA93 /* StockRowView.swift */,
 			);
 			path = StockList;
+			sourceTree = "<group>";
+		};
+		1743D6842FB49E6000A3BA93 /* StockDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1743D6802FB49E6000A3BA93 /* StockDetailViewModel.swift */,
+				1743D6822FB49E6000A3BA93 /* StockDetailView.swift */,
+			);
+			path = StockDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,6 +418,9 @@
 				1743D6712FB49E5000A3BA93 /* StockListViewModel.swift in Sources */,
 				1743D6732FB49E5000A3BA93 /* StockListView.swift in Sources */,
 				1743D6752FB49E5000A3BA93 /* StockRowView.swift in Sources */,
+			
+				1743D6812FB49E6000A3BA93 /* StockDetailViewModel.swift in Sources */,
+				1743D6832FB49E6000A3BA93 /* StockDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
