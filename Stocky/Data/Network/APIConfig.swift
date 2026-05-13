@@ -9,7 +9,7 @@ struct APIConfig: Sendable {
     static let production = APIConfig(
         baseURL: URL(string: "https://yahoo-finance-real-time1.p.rapidapi.com")!,
         host: "yahoo-finance-real-time1.p.rapidapi.com",
-        apiKey: "255cabfa77mshd679c791e61773bp12dca2jsnaa9531e09ee9", //Secrets.xcconfig for production code this will be loaded from a Secrets.xcconfig that is added to the .gitignore
+        apiKey: "ae94d2251cmsh5e41d39c78a1404p1c43e9jsnd74f7012cedf", // hide in  Secrets.xcconfig and don't commit to git ( left it so reviewer can test whiteout using his own key )
         region: "US"
     )
 }
