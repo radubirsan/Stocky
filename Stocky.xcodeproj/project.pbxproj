@@ -29,6 +29,7 @@
 		1743D6332FB49E1000A3BA93 /* StockSummaryDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6322FB49E1000A3BA93 /* StockSummaryDTO.swift */; };
 		1743D6352FB49E1000A3BA93 /* StockMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6342FB49E1000A3BA93 /* StockMapper.swift */; };
 		1743D6372FB49E1000A3BA93 /* StockSummaryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6362FB49E1000A3BA93 /* StockSummaryMapper.swift */; };
+		1743D6412FB49E2000A3BA93 /* StockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6402FB49E2000A3BA93 /* StockRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		1743D6322FB49E1000A3BA93 /* StockSummaryDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockSummaryDTO.swift; sourceTree = "<group>"; };
 		1743D6342FB49E1000A3BA93 /* StockMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockMapper.swift; sourceTree = "<group>"; };
 		1743D6362FB49E1000A3BA93 /* StockSummaryMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockSummaryMapper.swift; sourceTree = "<group>"; };
+		1743D6402FB49E2000A3BA93 /* StockRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				1743D6282FB49E0000A3BA93 /* Network */,
 				1743D6382FB49E1000A3BA93 /* DTOs */,
 				1743D6392FB49E1000A3BA93 /* Mappers */,
+				1743D6422FB49E2000A3BA93 /* Repositories */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -228,6 +231,14 @@
 				1743D6362FB49E1000A3BA93 /* StockSummaryMapper.swift */,
 			);
 			path = Mappers;
+			sourceTree = "<group>";
+		};
+		1743D6422FB49E2000A3BA93 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				1743D6402FB49E2000A3BA93 /* StockRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +359,8 @@
 				1743D6332FB49E1000A3BA93 /* StockSummaryDTO.swift in Sources */,
 				1743D6352FB49E1000A3BA93 /* StockMapper.swift in Sources */,
 				1743D6372FB49E1000A3BA93 /* StockSummaryMapper.swift in Sources */,
+			
+				1743D6412FB49E2000A3BA93 /* StockRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
