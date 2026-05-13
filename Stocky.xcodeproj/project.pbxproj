@@ -10,7 +10,6 @@
 		1743D5D92FB4998700A3BA93 /* StockyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D5D82FB4998700A3BA93 /* StockyApp.swift */; };
 		1743D5DD2FB4998A00A3BA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1743D5DC2FB4998A00A3BA93 /* Assets.xcassets */; };
 		1743D5E02FB4998A00A3BA93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1743D5DF2FB4998A00A3BA93 /* Preview Assets.xcassets */; };
-		1743D5EA2FB4998B00A3BA93 /* StockyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D5E92FB4998B00A3BA93 /* StockyTests.swift */; };
 		1743D60B2FB49D2800A3BA93 /* StockSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6072FB49D2800A3BA93 /* StockSummary.swift */; };
 		1743D60D2FB49D2800A3BA93 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6082FB49D2800A3BA93 /* Stock.swift */; };
 		1743D60F2FB49D2800A3BA93 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D60A2FB49D2800A3BA93 /* DomainError.swift */; };
@@ -39,6 +38,13 @@
 		1743D6832FB49E6000A3BA93 /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6822FB49E6000A3BA93 /* StockDetailView.swift */; };
 		1743D6912FB49E7000A3BA93 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6902FB49E7000A3BA93 /* AppRoute.swift */; };
 		1743D6932FB49E7000A3BA93 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6922FB49E7000A3BA93 /* AppRouter.swift */; };
+		1743D6A12FB49E8000A3BA93 /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6A02FB49E8000A3BA93 /* Fixtures.swift */; };
+		1743D6A32FB49E8000A3BA93 /* MockFetchStockListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6A22FB49E8000A3BA93 /* MockFetchStockListUseCase.swift */; };
+		1743D6A52FB49E8000A3BA93 /* MockFetchStockDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6A42FB49E8000A3BA93 /* MockFetchStockDetailUseCase.swift */; };
+		1743D6A72FB49E8000A3BA93 /* StockListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6A62FB49E8000A3BA93 /* StockListViewModelTests.swift */; };
+		1743D6A92FB49E8000A3BA93 /* StockDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6A82FB49E8000A3BA93 /* StockDetailViewModelTests.swift */; };
+		1743D6AB2FB49E8000A3BA93 /* StockMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6AA2FB49E8000A3BA93 /* StockMapperTests.swift */; };
+		1743D6AD2FB49E8000A3BA93 /* StockSummaryMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6AC2FB49E8000A3BA93 /* StockSummaryMapperTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +63,6 @@
 		1743D5DC2FB4998A00A3BA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1743D5DF2FB4998A00A3BA93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1743D5E52FB4998B00A3BA93 /* StockyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1743D5E92FB4998B00A3BA93 /* StockyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockyTests.swift; sourceTree = "<group>"; };
 		1743D6072FB49D2800A3BA93 /* StockSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockSummary.swift; sourceTree = "<group>"; };
 		1743D6082FB49D2800A3BA93 /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		1743D60A2FB49D2800A3BA93 /* DomainError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
@@ -83,6 +88,13 @@
 		1743D6822FB49E6000A3BA93 /* StockDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
 		1743D6902FB49E7000A3BA93 /* AppRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
 		1743D6922FB49E7000A3BA93 /* AppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		1743D6A02FB49E8000A3BA93 /* Fixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
+		1743D6A22FB49E8000A3BA93 /* MockFetchStockListUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockFetchStockListUseCase.swift; sourceTree = "<group>"; };
+		1743D6A42FB49E8000A3BA93 /* MockFetchStockDetailUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockFetchStockDetailUseCase.swift; sourceTree = "<group>"; };
+		1743D6A62FB49E8000A3BA93 /* StockListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockListViewModelTests.swift; sourceTree = "<group>"; };
+		1743D6A82FB49E8000A3BA93 /* StockDetailViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockDetailViewModelTests.swift; sourceTree = "<group>"; };
+		1743D6AA2FB49E8000A3BA93 /* StockMapperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockMapperTests.swift; sourceTree = "<group>"; };
+		1743D6AC2FB49E8000A3BA93 /* StockSummaryMapperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockSummaryMapperTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +157,12 @@
 		1743D5E82FB4998B00A3BA93 /* StockyTests */ = {
 			isa = PBXGroup;
 			children = (
-				1743D5E92FB4998B00A3BA93 /* StockyTests.swift */,
+				1743D6AE2FB49E8000A3BA93 /* Mocks */,
+				1743D6A02FB49E8000A3BA93 /* Fixtures.swift */,
+				1743D6A82FB49E8000A3BA93 /* StockDetailViewModelTests.swift */,
+				1743D6A62FB49E8000A3BA93 /* StockListViewModelTests.swift */,
+				1743D6AA2FB49E8000A3BA93 /* StockMapperTests.swift */,
+				1743D6AC2FB49E8000A3BA93 /* StockSummaryMapperTests.swift */,
 			);
 			path = StockyTests;
 			sourceTree = "<group>";
@@ -300,6 +317,15 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		1743D6AE2FB49E8000A3BA93 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				1743D6A42FB49E8000A3BA93 /* MockFetchStockDetailUseCase.swift */,
+				1743D6A22FB49E8000A3BA93 /* MockFetchStockListUseCase.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -441,10 +467,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1743D6182FB49FB300A3BA93 /* FetchStockDetailUseCase.swift in Sources */,
-				1743D5EA2FB4998B00A3BA93 /* StockyTests.swift in Sources */,
-				1743D61E2FB49FC000A3BA93 /* StockRepositoryProtocol.swift in Sources */,
-				1743D61A2FB49FB300A3BA93 /* FetchStockListUseCase.swift in Sources */,
+				1743D6A12FB49E8000A3BA93 /* Fixtures.swift in Sources */,
+				1743D6A32FB49E8000A3BA93 /* MockFetchStockListUseCase.swift in Sources */,
+				1743D6A52FB49E8000A3BA93 /* MockFetchStockDetailUseCase.swift in Sources */,
+				1743D6A72FB49E8000A3BA93 /* StockListViewModelTests.swift in Sources */,
+				1743D6A92FB49E8000A3BA93 /* StockDetailViewModelTests.swift in Sources */,
+				1743D6AB2FB49E8000A3BA93 /* StockMapperTests.swift in Sources */,
+				1743D6AD2FB49E8000A3BA93 /* StockSummaryMapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
