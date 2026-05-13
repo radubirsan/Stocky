@@ -1,8 +1,5 @@
 import Foundation
 
-/// Single error currency. The data layer translates `URLError`,
-/// `DecodingError`, and HTTP statuses into one of these so the
-/// presentation layer only reads `localizedDescription`.
 enum DomainError: LocalizedError, Sendable, Equatable {
     case networkUnavailable
     case unauthorized
