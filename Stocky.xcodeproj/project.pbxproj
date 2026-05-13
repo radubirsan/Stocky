@@ -30,6 +30,7 @@
 		1743D6352FB49E1000A3BA93 /* StockMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6342FB49E1000A3BA93 /* StockMapper.swift */; };
 		1743D6372FB49E1000A3BA93 /* StockSummaryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6362FB49E1000A3BA93 /* StockSummaryMapper.swift */; };
 		1743D6412FB49E2000A3BA93 /* StockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6402FB49E2000A3BA93 /* StockRepository.swift */; };
+		1743D6512FB49E3000A3BA93 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D6502FB49E3000A3BA93 /* DependencyContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		1743D6342FB49E1000A3BA93 /* StockMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockMapper.swift; sourceTree = "<group>"; };
 		1743D6362FB49E1000A3BA93 /* StockSummaryMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockSummaryMapper.swift; sourceTree = "<group>"; };
 		1743D6402FB49E2000A3BA93 /* StockRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockRepository.swift; sourceTree = "<group>"; };
+		1743D6502FB49E3000A3BA93 /* DependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				1743D5D82FB4998700A3BA93 /* StockyApp.swift */,
+				1743D6502FB49E3000A3BA93 /* DependencyContainer.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -361,6 +364,8 @@
 				1743D6372FB49E1000A3BA93 /* StockSummaryMapper.swift in Sources */,
 			
 				1743D6412FB49E2000A3BA93 /* StockRepository.swift in Sources */,
+			
+				1743D6512FB49E3000A3BA93 /* DependencyContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
